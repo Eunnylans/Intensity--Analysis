@@ -177,8 +177,3 @@ This project demonstrates the use of various text preprocessing techniques and m
 
 ---
 # Intensity--Analysis
-# Intensity--Analysis--Capstone--Project
-# Intensity--Analysis
-# Intensity--Analysis
-# Intensity--Analysis
-# Intensity--Analysis
