@@ -1,0 +1,8 @@
+# Ignore the zip file
+glove-global-vectors-for-word-representation.zip
+
+# Other common ignores
+*.log
+*.pyc
+__pycache__/
+.DS_Store
