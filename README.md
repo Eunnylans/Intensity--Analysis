@@ -101,23 +101,31 @@ Best performed:
 ## Project Structure
 
 ```
+├── assets/
+|   ├── comment.png
+|   ├── App.png
+|   ├── Emotion.png
 ├── Datasets/
 |   ├── angriness.csv
 |   ├── happiness.csv
 |   ├── sadness.csv
-├── assets/
-|   ├── comment.png
-|   ├── streamlit app overview.png
-├── streamlit app/
-|   ├── pkl files/
-│   |  ├── best_xgb_model.pkl
-│   |  ├── bow_vectorizer.pkl
-│   ├── main.py
-│   ├── text_normalization.py
+├── Deploy/
+│   ├── best_xgb_model.pkl
+│   ├── bow_vectorizer.pkl
 │   ├── requirement.txt
-├── emotion_classificatiom.ipynb
+│   ├── model.keras
+│   ├── streamlit.py
+│   ├── text_normalization.py
+│   ├── test-normalized.csv
+├── .gitignore
+├── project report.pdf
+├── .gitignore
 ├── project report.pdf
 ├── README.md
+├──glove-global-vectors-for-word-representation.zip
+├──Intensity--Analysis.ipynb
+├──Kaggle.json
+
 ```
 
 ---
@@ -176,4 +184,5 @@ The Streamlit app allows users to input text and get an emotion prediction. It u
 This project demonstrates the use of various text preprocessing techniques and machine learning models to predict emotions from text. Despite the challenges posed by the unique linguistic characteristics of the dataset, we achieved a validation accuracy of 73% with our best model. The Streamlit app provides an interactive way to test the models and see their predictions in real-time.
 
 ---
+
 # Intensity--Analysis
